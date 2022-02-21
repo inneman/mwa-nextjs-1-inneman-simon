@@ -4,7 +4,17 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        custom1: {
+          600: '#FF8482',
+        },
+      },
+      fontFamily: {
+        'alfa': ['Alfa Slab One'],
+        'sans': ['DM Sans'],
+      },
+    },
   },
   plugins: [],
 }
