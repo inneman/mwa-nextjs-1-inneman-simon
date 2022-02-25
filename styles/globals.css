@@ -85,6 +85,10 @@ h5 {
     box-sizing: border-box;
     border-radius: 3px;
 }
+.light_button {
+    background: #BE6361;
+    border-radius: 3px;
+}
 .light_field {
     background: #FFFFFF;
     border: 1px solid #DADADA;
