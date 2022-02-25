@@ -79,3 +79,15 @@ h5 {
     line-height: 24px;
     @apply text-white/50;
 }
+.dark_button {
+    background: #FFFFFF;
+    border: 2px solid #2B2B2B;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.light_field {
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 3px;
+}

@@ -8,12 +8,28 @@ const Footer = () => {
             <div className="max-w-screen-2xl mx-auto sm:px-12 px-4 py-12">
                 <div className="sm:flex">
                     <div className="flex-none sm:w-5/12 text-white sm:pr-32 pb-8 sm:pb-0">
-                        <div><h3><Link href="/">LOGO</Link></h3></div>
-                        <div className="py-5 text_big"><p>Sit alii tantas viderer no. An mel nostrum appareat. Ad consul facilis est. Vix habeo scaevola percipitur ne, qui noster abhorreant ne.</p></div>
+                        <div>
+                            <Link href="/">
+                                <h3>
+                                    LOGO
+                                </h3>
+                            </Link>
+                        </div>
+                        <div className="py-5 text_big">
+                            <p>
+                                Sit alii tantas viderer no. An mel nostrum appareat. Ad consul facilis est. Vix habeo scaevola percipitur ne, qui noster abhorreant ne.
+                            </p>
+                        </div>
                         <div className="flex text-3xl">
-                            <div className="pr-3"><Link href="#"><FontAwesomeIcon icon={faFacebookF}/></Link></div>
-                            <div className="pr-3"><FontAwesomeIcon icon={faTwitter}/></div>
-                            <div className="pr-3"><FontAwesomeIcon icon={faInstagram}/></div>
+                            <div className="pr-3">
+                                <FontAwesomeIcon icon={faFacebookF}/>
+                            </div>
+                            <div className="pr-3">
+                                <FontAwesomeIcon icon={faTwitter}/>
+                            </div>
+                            <div className="pr-3">
+                                <FontAwesomeIcon icon={faInstagram}/>
+                            </div>
                         </div>
                     </div>
                     <div className="flex-auto pt-12 sm:pt-0">
