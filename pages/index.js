@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import workImage from '../public/marginalia-productive-work.svg';
 import unsubscribeImage from '../public/marginalia-unsubscribed.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChartBar, faFile, faSuitcase } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function Home() {
   return (
@@ -50,6 +53,41 @@ export default function Home() {
             <p className='text_big py-8 md:pr-48'>Quo ex ocurreret quaerendum. Mel cu ancillae similique. Mei no ubique persecuti, at sit iusto aliquam interpretaris.</p>
             <button className='light_button text-white py-3 px-12 hover:bg-custom3-600 transition-all'>Explore</button>
           </div>
+        </div>
+      </div>
+
+      <div className='bg-white'>
+        <div className='max-w-screen-2xl mx-auto sm:px-12 px-4 py-16 text-center'>
+          <h5 className='text-custom3-600'>Nominavi suavitate</h5>
+          <h2 className='p-6'>Offendit persecuti</h2>
+          <p className='text_big'>Eu pro ludus dignissim. Eos debet molestiae constituto ne,<br/> quo consul interesset ei, cotidieque theophrastus ea his.</p>
+          <div className='md:flex p-16'>
+            <div className='flex-1'>
+              <div className='services w-44 m-auto px-4 py-2'>
+                <p className='text-left services_text text-black/10'>01</p>
+                <FontAwesomeIcon className='text-7xl pt-2 pb-6 text-custom2-600' icon={faChartBar} />
+              </div>
+              <h4 className='mt-6 mb-2'>Possim</h4>
+              <p className='text-black/50 px-16'>An animal assentior nam, sed qualisque deterruisset ea qui melius erroribus</p>
+            </div>
+            <div className='flex-1 mt-16 sm:mt-0'>
+              <div className='services w-44 m-auto px-4 py-2'>
+                <p className='text-left services_text text-black/10'>02</p>
+                <FontAwesomeIcon className='text-7xl pt-2 pb-6 text-custom2-600' icon={faSuitcase}/>
+              </div>
+              <h4 className='mt-6 mb-2'>Vivendo</h4>
+              <p className='text-black/50 px-20'>Assum ubique quodsi sea ad partem vocent vel, ius id viris utinam</p>
+            </div>
+            <div className='flex-1 mt-16 sm:mt-0'>
+              <div className='services w-44 m-auto px-4 py-2'>
+                <p className='text-left services_text text-black/10'>03</p>
+                <FontAwesomeIcon className='text-7xl pt-2 pb-6 text-custom2-600' icon={faFile}/>
+              </div>
+              <h4 className='mt-6 mb-2'>Deterruisset</h4>
+              <p className='text-black/50 px-20'>Nam natum volutpat eu natum elitr vel te id qui purto dicit</p>
+            </div>
+          </div>
+          <button className='light_button text-white py-3 px-12 hover:bg-custom3-600 transition-all'>Learn more</button>
         </div>
       </div>
     </div>
