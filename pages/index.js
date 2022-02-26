@@ -2,6 +2,8 @@ import Image from 'next/image';
 import workImage from '../public/marginalia-productive-work.svg';
 import unsubscribeImage from '../public/marginalia-unsubscribed.svg';
 import comingImage from '../public/marginalia-coming-soon.svg';
+import shoesImage from '../public/redshoes.svg';
+import numberImage from '../public/redonenumber.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar, faFile, faHeart, faRocket, faStar, faSuitcase, faBullhorn, faUser } from '@fortawesome/free-solid-svg-icons';
 
@@ -105,6 +107,26 @@ export default function Home() {
           </div>
           <div className='flex-1 md:pt-0'>
             <Image src={comingImage} alt='Man climbing ladder'/>
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-white'>
+        <div className='max-w-screen-2xl mx-auto px-4 sm:px-24 py-20'>
+          <h5 className='text-custom2-600'>Vim dolore</h5>
+          <div className='sm:flex'>
+            <h2 className='my-6'>Epicurei aeque</h2>
+            <button className='light_button_secondary ml-auto text text-custom2-600 sm:my-8 py-3 px-12'>All work</button>
+          </div>
+          <div className='sm:flex sm:pl-16 mt-8'>
+            <div className='flex-1'>
+              <Image src={numberImage} alt="Number one on red background"/>
+              <h4 className='my-4'>Postea nam at posse dicta</h4>
+            </div>
+            <div className='flex-1'>
+              <Image src={shoesImage} alt="Red shoes"/>
+              <h4 className='my-4'>Ea vivendo omnesque</h4>
+            </div>
           </div>
         </div>
       </div>
