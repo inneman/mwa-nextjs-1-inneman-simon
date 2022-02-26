@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import workImage from '../public/marginalia-productive-work.svg';
 import unsubscribeImage from '../public/marginalia-unsubscribed.svg';
+import comingImage from '../public/marginalia-coming-soon.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartBar, faFile, faSuitcase } from '@fortawesome/free-solid-svg-icons';
-
+import { faChartBar, faFile, faHeart, faRocket, faStar, faSuitcase, faBullhorn, faUser } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   return (
@@ -88,6 +88,24 @@ export default function Home() {
             </div>
           </div>
           <button className='light_button text-white py-3 px-12 hover:bg-custom3-600 transition-all'>Learn more</button>
+        </div>
+      </div>
+
+      <div className='bg-custom4-600'>
+        <div className='max-w-screen-2xl mx-auto sm:px-12 px-4 pt-20 md:flex'>
+          <div className='flex-1 sm:pl-12 py-20'>
+            <h5 className='text-custom2-600'>Mel solum</h5>
+            <h2 className='my-6'>Mazim iudico</h2>
+            <p className='text py-2'><FontAwesomeIcon className='text-custom2-600 pr-4' icon={faHeart}/>Bonorum minimum et sit tritani te, qui feugait electram</p>
+            <p className='text py-2'><FontAwesomeIcon className='text-custom2-600 pr-4' icon={faStar} />Bonorum minimum et sit tritani te, qui feugait electram</p>
+            <p className='text py-2'><FontAwesomeIcon className='text-custom2-600 pr-4' icon={faRocket} />Bonorum minimum et sit tritani te, qui feugait electram</p>
+            <p className='text py-2'><FontAwesomeIcon className='text-custom2-600 pr-4' icon={faBullhorn}/>Bonorum minimum et sit tritani te, qui feugait electram</p>
+            <p className='text py-2'><FontAwesomeIcon className='text-custom2-600 pr-4' icon={faUser}/>Bonorum minimum et sit tritani te, qui feugait electram</p>
+            <button className='light_button_secondary text text-custom2-600 py-3 px-12 mt-8'>Get started</button>
+          </div>
+          <div className='flex-1 md:pt-0'>
+            <Image src={comingImage} alt='Man climbing ladder'/>
+          </div>
         </div>
       </div>
     </div>

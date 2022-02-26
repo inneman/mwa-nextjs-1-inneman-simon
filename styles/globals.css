@@ -89,6 +89,12 @@ h5 {
     background: #BE6361;
     border-radius: 3px;
 }
+.light_button_secondary {
+    mix-blend-mode: normal;
+    box-sizing: border-box;
+    border-radius: 3px;
+    @apply border border-custom2-600/30 hover:border-custom2-600 transition-all;
+}
 .light_field {
     background: #FFFFFF;
     border: 1px solid #DADADA;
