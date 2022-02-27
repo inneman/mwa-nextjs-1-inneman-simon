@@ -1,12 +1,13 @@
 import Image from 'next/image';
+import CheckedText from '../components/checkedText';
 import workImage from '../public/marginalia-productive-work.svg';
 import unsubscribeImage from '../public/marginalia-unsubscribed.svg';
 import comingImage from '../public/marginalia-coming-soon.svg';
 import shoesImage from '../public/redshoes.svg';
 import numberImage from '../public/redonenumber.svg';
-import bgImage from '../public/overlay.jpg';
+import shoppingImage from '../public/marginalia-online-shopping.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartBar, faFile, faHeart, faRocket, faStar, faSuitcase, faBullhorn, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faChartBar, faFile, faHeart, faRocket, faStar, faSuitcase, faBullhorn, faUser, faCheck } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   return (
@@ -141,8 +142,28 @@ export default function Home() {
       </div>
 
       <div className='bg-white'>
-        <div className='max-w-screen-2xl mx-auto px-4 sm:px-24 py-20'>
-          
+        <div className='max-w-screen-2xl mx-auto px-4 py-20 md:flex'>
+          <div className='flex-1'>
+            <Image src={shoppingImage} alt="Woman shopping with cart"/>
+          </div>
+          <div className='flex-1 md:mt-24'>
+            <h5 className='text-custom3-600'>Ei vix quot </h5>
+            <h2 className='py-6'>Suscipit natum</h2>
+            <div className='flex md:w-3/5'>
+              <div className='flex-1'>
+                <CheckedText text="Usu vitae"/>
+                <CheckedText text="Quidam officiis"/>
+                <CheckedText text="Vel tollit"/>
+                <CheckedText text="Nihil tantas"/>
+              </div>
+              <div className='flex-1'>
+                <CheckedText text="Decore ut"/>
+                <CheckedText text="Similique sea ei"/>
+                <CheckedText text="Indoctum"/>
+                <CheckedText text="Platonem eos"/>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
