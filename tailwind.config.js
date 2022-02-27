@@ -23,6 +23,9 @@ module.exports = {
         'alfa': ['Alfa Slab One'],
         'sans': ['DM Sans'],
       },
+      backgroundImage: {
+        'bgImage': "url('/public/overlay.jpg)",
+      },
     },
   },
   plugins: [],

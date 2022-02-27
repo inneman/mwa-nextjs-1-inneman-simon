@@ -4,6 +4,7 @@ import unsubscribeImage from '../public/marginalia-unsubscribed.svg';
 import comingImage from '../public/marginalia-coming-soon.svg';
 import shoesImage from '../public/redshoes.svg';
 import numberImage from '../public/redonenumber.svg';
+import bgImage from '../public/overlay.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar, faFile, faHeart, faRocket, faStar, faSuitcase, faBullhorn, faUser } from '@fortawesome/free-solid-svg-icons';
 
@@ -128,6 +129,20 @@ export default function Home() {
               <h4 className='my-4'>Ea vivendo omnesque</h4>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="bg-custom2-600">
+        <div className='max-w-screen-2xl mx-auto px-4 sm:px-24 py-20 text-center'>
+          <h5 className='text-white mb-4'>Eos lobortis inimicus</h5>
+          <h2 className='text-white'>Pro ad ubique erroribus <br /> in modo mutat sed</h2>
+          <button className='dark_button px-12 py-2 my-6'>Try now</button>
+        </div>
+      </div>
+
+      <div className='bg-white'>
+        <div className='max-w-screen-2xl mx-auto px-4 sm:px-24 py-20'>
+          
         </div>
       </div>
     </div>
