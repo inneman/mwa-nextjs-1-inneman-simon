@@ -133,7 +133,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-custom2-600">
+      <div className="bg-[url('../public/overlay.jpg')]">
         <div className='max-w-screen-2xl mx-auto px-4 sm:px-24 py-20 text-center'>
           <h5 className='text-white mb-4'>Eos lobortis inimicus</h5>
           <h2 className='text-white'>Pro ad ubique erroribus <br /> in modo mutat sed</h2>
