@@ -6,7 +6,7 @@ import { faNavicon } from '@fortawesome/free-solid-svg-icons';
 const Header = () => {
     return (
         <div className="bg-custom1-600 py-6">
-            <div className="max-w-screen-2xl mx-auto sm:px-12 px-4">
+            <div className="max-w-screen-2xl mx-auto xl:px-0 px-4">
                 <nav className="text-white">
                     <div className="flex justify-between">
                         <div><h3><Link href="/">LOGO</Link></h3></div>

@@ -12,9 +12,9 @@ import { faChartBar, faFile, faHeart, faRocket, faStar, faSuitcase, faBullhorn, 
 export default function Home() {
   return (
     <div>
-      <div className="bg-custom1-600">
-        <div className="max-w-screen-2xl mx-auto sm:px-12 px-4 lg:flex sm:pt-8">
-          <div className="text-white flex-1 sm:pl-12 lg:py-20">
+      <div className="bg-custom1-600 px-4">
+        <div className="max-w-screen-2xl mx-auto lg:flex sm:pt-8">
+          <div className="text-white flex-1 lg:py-32">
             <h5 className='py-8'>Delectus instructior</h5>
             <h1 className='hidden sm:block'>Vide legimus consectetuer</h1>
             <h1 className='sm:hidden'>Vide legim- us consec- tetuer</h1>
@@ -29,19 +29,18 @@ export default function Home() {
               <button className='dark_button text-black py-3 px-12 my-4 sm:my-0'>Submit</button>
             </div>
           </div>
-          <div className="flex-1">
-            <div>
-              <Image
-                src={workImage}
-                alt="Picture of the woman working"
-                />
-            </div>
-          </div>
+          <Image
+          className='flex-1'
+              src={workImage}
+              width={800}
+              height={800}
+              alt="Picture of the woman working"
+          />
         </div>
       </div>
 
-      <div className='bg-custom4-600'>
-        <div className='max-w-screen-2xl mx-auto sm:px-12 px-4 pt-20 pb-12 lg:flex'>
+      <div className='bg-custom4-600 px-4'>
+        <div className='max-w-screen-2xl mx-auto pt-20 pb-12 lg:flex'>
           <div className="flex-1">
             <div>
               <Image
