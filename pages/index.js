@@ -9,7 +9,7 @@ import shoppingImage from '../public/marginalia-online-shopping.svg'
 import Button from '../components/button';
 import LightButton from '../components/lightButton.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartBar, faFile, faEnvelope, faHeart, faRocket, faStar, faSuitcase, faBullhorn, faUser, faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faChartBar, faFile, faEnvelope, faMobileScreenButton, faHeart, faRocket, faStar, faSuitcase, faBullhorn, faUser, faCheck, faMap } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   return (
@@ -117,16 +117,16 @@ export default function Home() {
       <div className='bg-white'>
         <div className='max-w-screen-2xl mx-auto px-4 sm:px-24 py-20'>
           <h5 className='text-custom2-600'>Vim dolore</h5>
-          <div className='sm:flex'>
+          <div className='sm:flex justify-between'>
             <h2 className='my-6'>Epicurei aeque</h2>
-            <button className='light_button_secondary ml-auto text text-custom2-600 sm:my-8 py-3 px-12'>All work</button>
+            <button className='light_button_secondary text text-custom2-600 sm:my-8 py-3 px-12'>All work</button>
           </div>
-          <div className='sm:flex sm:pl-16 mt-8'>
-            <div className='flex-1'>
+          <div className='sm:flex justify-between mt-8'>
+            <div>
               <Image src={numberImage} alt="Number one on red background"/>
               <h4 className='my-4'>Postea nam at posse dicta</h4>
             </div>
-            <div className='flex-1'>
+            <div>
               <Image src={shoesImage} alt="Red shoes"/>
               <h4 className='my-4'>Ea vivendo omnesque</h4>
             </div>
@@ -253,20 +253,20 @@ export default function Home() {
           <div className='md:flex my-8'>
             <div className="services bg-white flex py-6 md:mx-4 my-4 md:my-0 w-full justify-center">
               <div className='text-custom1-600 text-5xl pr-4'>
-                  <FontAwesomeIcon icon={faEnvelope} />
+                  <FontAwesomeIcon icon={faMap} />
               </div>
               <div className='pl-2'>
-                  <h4>Write us</h4>
-                  <p className='text'>info@gmail.com</p>
+                  <h4>Office</h4>
+                  <p className=' text-black/40'>Mel erat timeam, 123 45-67</p>
               </div>
             </div>
             <div className="services bg-white flex py-6 md:mx-4 my-4 md:my-0 w-full justify-center">
               <div className='text-custom1-600 text-5xl pr-4'>
-                  <FontAwesomeIcon icon={faEnvelope} />
+                  <FontAwesomeIcon icon={faMobileScreenButton} />
               </div>
               <div className='pl-2'>
-                  <h4>Write us</h4>
-                  <p className='text'>info@gmail.com</p>
+                  <h4>Call us</h4>
+                  <p className='text-black/40'>+1 234 567 89 00</p>
               </div>
             </div>
             <div className="services bg-white flex py-6 md:mx-4 my-4 md:my-0 w-full justify-center">
