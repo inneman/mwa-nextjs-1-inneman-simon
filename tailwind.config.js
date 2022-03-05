@@ -18,6 +18,9 @@ module.exports = {
         custom4: {
           600: '#FFF2DD',
         },
+        almostBlack: {
+          600: '#333333',
+        },
       },
       fontFamily: {
         'alfa': ['Alfa Slab One'],

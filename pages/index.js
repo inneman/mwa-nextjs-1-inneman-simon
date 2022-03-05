@@ -6,8 +6,10 @@ import comingImage from '../public/marginalia-coming-soon.svg';
 import shoesImage from '../public/redshoes.svg';
 import numberImage from '../public/redonenumber.svg';
 import shoppingImage from '../public/marginalia-online-shopping.svg'
+import Button from '../components/button';
+import LightButton from '../components/lightButton.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartBar, faFile, faHeart, faRocket, faStar, faSuitcase, faBullhorn, faUser, faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faChartBar, faFile, faEnvelope, faHeart, faRocket, faStar, faSuitcase, faBullhorn, faUser, faCheck } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   return (
@@ -132,7 +134,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-[url('../public/overlay.jpg')]">
+      <div className="bg-[url('../public/bg-image.svg')] bg-cover bg-center">
         <div className='max-w-screen-2xl mx-auto px-4 sm:px-24 py-20 text-center'>
           <h5 className='text-white mb-4'>Eos lobortis inimicus</h5>
           <h2 className='text-white'>Pro ad ubique erroribus <br /> in modo mutat sed</h2>
@@ -160,6 +162,120 @@ export default function Home() {
                 <CheckedText text="Similique sea ei"/>
                 <CheckedText text="Indoctum"/>
                 <CheckedText text="Platonem eos"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-custom4-600 px-4'>
+        <div className='max-w-screen-2xl m-auto py-14'>
+          <h5 className='text-custom2-600 text-center'>Mazim nemore</h5>
+          <h1 className='text-center py-6 text-almostBlack-600'>Nullam ornatus</h1>
+          <div className='lg:flex justify-center'>
+            <div className='lg:w-1/4 bg-white m-5 services px-8 py-10'>
+              <div className='flex justify-between'>
+                <h5 className='text-custom2-600'>Maiestatis</h5>
+                <div className='flex text-almostBlack-600'>
+                  <h3 className='m-1'>$</h3>
+                  <h1>9</h1>
+                </div>
+              </div>
+              <div className='my-5'>
+                <p className='text py-1'><FontAwesomeIcon className='text-custom1-600 pr-4' icon={faCheck} />An mel everti invenire</p>
+                <p className='text py-1'><FontAwesomeIcon className='text-custom1-600 pr-4' icon={faCheck} />Intellegam legendos </p>
+                <p className='text py-1'><FontAwesomeIcon className='text-custom1-600 pr-4' icon={faCheck} />Consequuntur eu sit</p>
+                <p className='text py-1'><FontAwesomeIcon className='text-custom1-600 pr-4' icon={faCheck} />Solet nostrum</p>
+                <p className='text py-1'><FontAwesomeIcon className='text-custom1-600 pr-4' icon={faCheck} />Consectetuer sea</p>
+              </div>
+              <div className='text-center mt-8'><LightButton text='Buy'/></div>
+            </div>
+            <div className='lg:w-1/4 bg-custom2-600 m-5 services px-8 py-10'>
+            <div className='flex justify-between text-white'>
+                <h5>Essent</h5>
+                <div className='flex'>
+                  <h3 className='m-1'>$</h3>
+                  <h1>24</h1>
+                </div>
+              </div>
+              <div className='my-5 text-white'>
+                <p className='text py-1'><FontAwesomeIcon className='text-custom1-600 pr-4' icon={faCheck} />An mel everti invenire</p>
+                <p className='text py-1'><FontAwesomeIcon className='text-custom1-600 pr-4' icon={faCheck} />Intellegam legendos </p>
+                <p className='text py-1'><FontAwesomeIcon className='text-custom1-600 pr-4' icon={faCheck} />Consequuntur eu sit</p>
+                <p className='text py-1'><FontAwesomeIcon className='text-custom1-600 pr-4' icon={faCheck} />Solet nostrum</p>
+                <p className='text py-1'><FontAwesomeIcon className='text-custom1-600 pr-4' icon={faCheck} />Consectetuer sea</p>
+              </div>
+              <div className='text-center mt-8'><button className='dark_button py-3 px-20'>Buy</button></div>
+            </div>
+            <div className='lg:w-1/4 bg-white m-5 services px-8 py-10'>
+            <div className='flex justify-between'>
+                <h5 className='text-custom2-600'>Ornatus</h5>
+                <div className='flex text-almostBlack-600'>
+                  <h3 className='m-1'>$</h3>
+                  <h1>99</h1>
+                </div>
+              </div>
+              <div className='my-5'>
+                <p className='text py-1'><FontAwesomeIcon className='text-custom1-600 pr-4' icon={faCheck} />An mel everti invenire</p>
+                <p className='text py-1'><FontAwesomeIcon className='text-custom1-600 pr-4' icon={faCheck} />Intellegam legendos </p>
+                <p className='text py-1'><FontAwesomeIcon className='text-custom1-600 pr-4' icon={faCheck} />Consequuntur eu sit</p>
+                <p className='text py-1'><FontAwesomeIcon className='text-custom1-600 pr-4' icon={faCheck} />Solet nostrum</p>
+                <p className='text py-1'><FontAwesomeIcon className='text-custom1-600 pr-4' icon={faCheck} />Consectetuer sea</p>
+              </div>
+              <div className='text-center mt-8'><LightButton text='Buy'/></div>
+            </div>
+          </div>
+          <p className='text-center text-black/50 mt-3'>Diam facilisi insolens per cu, eos malorum voluptaria <br /> esse concludaturque facete quaeque consequat </p>
+        </div>
+      </div>
+
+      <div className='max-w-screen-2xl mx-auto px-4 lg:flex justify-between py-20'>
+        <div className='lg:w-1/3'>
+          <h5 className='text-custom2-600 py-6'>Percipit mea</h5>
+          <h2>Suas semper</h2>
+          <p className='text_big py-8'>Deseruisse definitionem his et, an has veri integre <br /> abhorreant, nam alii epicurei et.</p>
+          <input id="email" name="email" required type="text" placeholder='Your email'
+          className='light_field py-3 px-2 w-full'/>
+          <textarea id="message" name="message" required type="text" placeholder='Message'
+          className='light_field py-3 px-2 w-full my-4 h-1/4'/>
+          <Button text='Submit'/>
+        </div>
+        <Image
+        src={'/../public/marginalia-waiting.svg'}
+        width={700}
+        height={700}
+        />
+      </div>
+
+      <div className='bg-custom2-600 py-10 px-4'>
+        <div className='max-w-screen-2xl mx-auto'>
+          <h2 className='text-center text-white'>Timeam scriptorem</h2>
+          <div className='md:flex my-8'>
+            <div className="services bg-white flex py-6 md:mx-4 my-4 md:my-0 w-full justify-center">
+              <div className='text-custom1-600 text-5xl pr-4'>
+                  <FontAwesomeIcon icon={faEnvelope} />
+              </div>
+              <div className='pl-2'>
+                  <h4>Write us</h4>
+                  <p className='text'>info@gmail.com</p>
+              </div>
+            </div>
+            <div className="services bg-white flex py-6 md:mx-4 my-4 md:my-0 w-full justify-center">
+              <div className='text-custom1-600 text-5xl pr-4'>
+                  <FontAwesomeIcon icon={faEnvelope} />
+              </div>
+              <div className='pl-2'>
+                  <h4>Write us</h4>
+                  <p className='text'>info@gmail.com</p>
+              </div>
+            </div>
+            <div className="services bg-white flex py-6 md:mx-4 my-4 md:my-0 w-full justify-center">
+              <div className='text-custom1-600 text-5xl pr-4'>
+                  <FontAwesomeIcon icon={faEnvelope} />
+              </div>
+              <div className='pl-2'>
+                  <h4>Write us</h4>
+                  <p className='text'>info@gmail.com</p>
               </div>
             </div>
           </div>
